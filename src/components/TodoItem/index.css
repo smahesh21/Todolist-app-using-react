@@ -1,0 +1,33 @@
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #000000;
+}
+@media screen and (max-width: 576px) {
+  .description {
+    font-size: 10px;
+  }
+}
+.delete-button {
+  height: 30px;
+  width: 70px;
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid #ff8542;
+  border-radius: 5px;
+}
+@media screen and (max-width: 576px) {
+  .delete-button {
+    height: 25px;
+    width: 60px;
+    font-size: 14px;
+  }
+}
